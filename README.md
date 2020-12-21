@@ -17,7 +17,7 @@ In this project, we used the [Goodreads dataset](https://sites.google.com/eng.uc
   - `user_id_map.csv`
   - `book_id_map.csv`
 
-The first file contains tuples of user-book interactions.  For example, the first five linrd are
+The first file contains tuples of user-book interactions.  For example, the first five lines are
 ```
 user_id,book_id,is_read,rating,is_reviewed
 0,948,1,5,0
