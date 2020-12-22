@@ -1,4 +1,4 @@
-# DSGA1004 - BIG DATA
+# BIG DATA
 ## Final project
 
 *Submission deadline*: 2020-05-11
