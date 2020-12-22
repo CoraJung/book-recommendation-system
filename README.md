@@ -69,6 +69,18 @@ In addition to the RMS error metric, Spark provides some additional evaluation m
 Refer to the [ranking metrics](https://spark.apache.org/docs/latest/mllib-evaluation-metrics.html#ranking-systems) section of the documentation for more details.
 If you like, you may also use additional software implementations of recommendation or ranking metric evaluations, but please cite any additional software you use in the project.
 
+### Results
+
+The best hyper-parameter setting against the validation set is:
+rank = 20, regularization parameter = 0.05 with NDCG score: 0.01255, MAP: 0.00038, precision at K = 0.00307.
+
+The performance on test set is as following:
+**NDCG**:	0.0129
+**MAP**: 0.0005
+**Precision at 500**: 0.0032
+
+Our model with the best hyper-parameters seems well generalized as it can be seen from the similar performance on validation and test set.
+
 ### Hints
 We first started small, and got the entire system working start-to-finish before investing time in hyper-parameter tuning!
 We also found it helpful to convert the raw CSV data to parquet format for more efficient access.
