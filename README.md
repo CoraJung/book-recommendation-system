@@ -6,7 +6,7 @@
 
 # Overview
 
-In the final project, I built and evaluated a recommender system. It is intended more as an opportunity to integrate multiple techniques to solve a realistic, large-scale applied problem.
+In the final project, we built and evaluated a recommender system. It is intended more as an opportunity to integrate multiple techniques to solve a realistic, large-scale applied problem.
 
 ## The data set
 
